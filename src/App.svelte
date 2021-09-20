@@ -1,10 +1,11 @@
 <script>
 import Series from "./Library.svelte"
-export let name;
+import Form from "./AddSeries.svelte"
 </script>
 
 <main>
 	<h1>Hello, check out this series!</h1>
+	<Form />
 	<Series />
 </main>
 

@@ -1,6 +1,5 @@
 <script>
     import { onMount } from "svelte";
-    import Serie from "./Serie.svelte";
 
     export let Series = [];
 
@@ -30,13 +29,17 @@
 </div>
 
 <style>
+    
     ul {
         list-style-type: none;
+        max-width: 300px;
     }
+
     li {
         font-size: 20px; 
     }
     p {
         font-size: 12px; 
+        
     }
 </style>
