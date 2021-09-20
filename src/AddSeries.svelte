@@ -14,7 +14,6 @@
             about: event.target.about.value,
         };
 
-
         fetch("http://localhost:3000/series", {
             method: "post",
             headers: {
@@ -29,8 +28,8 @@
 </script>
 
 <form on:submit={onSubmit}>
-    <input type="text" id="name" bind:value={name} />
-    <input type="text" id="about" bind:value={about} />
+    <input type="text" placeholder="Name of serie" id="name" bind:value={name} />
+    <input type="text" placeholder="What is it about?" id="about" bind:value={about} />
     <button>Save</button>
 </form>
 

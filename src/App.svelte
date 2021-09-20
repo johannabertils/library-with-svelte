@@ -4,8 +4,10 @@ import Form from "./AddSeries.svelte"
 </script>
 
 <main>
-	<h1>Hello, check out this series!</h1>
+	<h1>welcome!</h1>
+	<h2>Add new serie</h2>
 	<Form />
+	<h2>or check out this series: </h2>
 	<Series />
 </main>
 
@@ -13,13 +15,18 @@ import Form from "./AddSeries.svelte"
 	main {
 		text-align: center;
 		padding: 1em;
-		max-width: 240px;
+		max-width: 2340px;
 		margin: 0 auto;
 	}
 
 	h1 {
 		text-transform: uppercase;
 		font-size: 2em;
+		font-weight: 100;
+	}
+	h2 {
+		text-transform: uppercase;
+		font-size: 1em;
 		font-weight: 100;
 	}
 
